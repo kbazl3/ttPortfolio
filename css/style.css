@@ -1,0 +1,160 @@
+body {
+    background-color: #fff;
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.logo {
+    text-align: center;
+}
+
+header {
+    background: #6ab47b;
+    border:#599a68;
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+
+.gallery {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+}
+
+.gallery li a p {
+    margin: 0;
+    padding: 5%;
+    font-size: .75em;
+    color: #bdc3c7
+}
+
+h1 {
+    font-family: 'Changa One', sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
+}
+
+h2 {
+    font-size: 0.75em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+h3 {
+    margin: 0 0 1em 0;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+nav {
+    background: #599a68;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+nav ul {
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+    color: #6ab47b;
+}
+footer {
+    font-size: .75em;
+    text-align: center;
+    padding-top: 50px;
+    clear: both;
+}
+
+.profilePic {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+}
+
+.contact-info {
+    padding: 0;
+    margin: 0;
+    font-size: .9em;
+}
+
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+    background-image: url('https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-128.png');
+}
+
+.contact-info li.mail a {
+    background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSLc-Lk2A3TIMiOU9MP5UYj4Ryi0BkfzWkyWasgbvkgGj7Nsqc18g');
+}
+
+.contact-info li.twitter a {
+    background-image: url('http://bloximages.newyork1.vip.townnews.com/dailyprogress.com/content/tncms/live/global/resources/images/_site/social/twitter-logo-cutout.png?_dc=1410894165');
+}
+
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+li {
+    list-style-type: none;
+}
+
+nav a, nav a:visited {
+    color: #fff;
+}
+
+.wrapper a, .wrapper a:visited {
+    color: #6ab47b;
+}
+
+nav a.selected, nav a:hover {
+    color: #32673f;
+}
